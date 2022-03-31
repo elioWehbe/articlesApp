@@ -4,8 +4,8 @@ import { useSelector,useDispatch } from 'react-redux';
 import * as articleActions from '../store/actions/articles';
 const DashboardScreen = props => {
   const article = useSelector(state => state.articles.userProducts);
+  console.log(article);
   const dispatch=useDispatch();
-  // console.log(article);
   useEffect(()=>{
     dispatch(articleActions.fetchArticles());
   },[dispatch]);
