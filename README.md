@@ -1,3 +1,3 @@
 # CodeChallenge
-To run the project install yarn install or npm install
+To run the project run yarn install or npm install
 
